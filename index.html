@@ -5,17 +5,23 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Děkujeme! - Accace Česká republika</title>
+<link rel="icon" type="image/x-icon" href="faviconV2.png">
 <style>
     p {
         text-align: center;
-        font-family:"Calibri, sans-serif"
+        font-family:"Arial, sans-serif"
+    }
+
+    #CountDownTime {
+        text-align: center;
+        font-family:"Arial, sans-serif"
     }
 </style>
 <script src="custom.js">
 </script> 
 </head>
-<body>
+<body onload="CountDownStart()">
     <p>Děkujeme! Vaši odpověď jsme zaznamenali.</p>
-    <p>Toto okno se automaticky zavře za 5 vteřin.</p>
+    <div id="CountDownTime">Toto okno se automaticky zavře za 5 sekund.</div>
 </body>
 </html>

@@ -11,7 +11,7 @@ let lang = params.lang
 
 console.log(id, response, lang)
 
-//fetch(`https://prod-110.westeurope.logic.azure.com/workflows/e1566d2a1e144885a906ceece6889baa/triggers/manual/paths/invoke/ID/${id}/approval/${response}?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=lEWJl3LhpWYhLnQHNebtS_5m6MIFzr-VD43CU9QFSVk`)
+fetch(`https://prod-110.westeurope.logic.azure.com/workflows/e1566d2a1e144885a906ceece6889baa/triggers/manual/paths/invoke/ID/${id}/approval/${response}?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=lEWJl3LhpWYhLnQHNebtS_5m6MIFzr-VD43CU9QFSVk`)
 
 var countdownFrom = 5;  // number of seconds
 var countdownwin;
